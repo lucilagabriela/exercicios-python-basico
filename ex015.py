@@ -6,4 +6,4 @@ km = float(input('Quantos km rodados? '))
 precoDias = 60*dias
 precoKm = 0.15*km
 totalPreco = precoDias + precoKm
-print('O total a pagar por {} dias e {}km rodados é de R${}'.format(dias, km, totalPreco))
+print('O total a pagar por {} dias e {}km rodados é de R${:.2f}'.format(dias, km, totalPreco))
