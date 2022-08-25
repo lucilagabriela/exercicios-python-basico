@@ -1,0 +1,1 @@
+# R$0.50 por km, em até 200km; R$0.45 para mais longas #
