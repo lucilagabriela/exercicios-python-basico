@@ -2,3 +2,8 @@
 
 # considerando que a multa custa R$7 por cada km acima do limite #
 velInicial = float(input('Qual a velocidade atual? '))
+if velInicial <=80:
+    print('Parabéns, você não foi multado!')
+else:
+    multa = (velInicial-80)*7
+    print('Você foi multado, pois atingiu {:.2f}km/h. Terá de pagar R${} em multa!'.format(velInicial, multa))
