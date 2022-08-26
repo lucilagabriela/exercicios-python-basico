@@ -2,7 +2,7 @@
 
 dias = int(input('Quantos dias alugados? '))
 km = float(input('Quantos km rodados? '))
-# dado que o carro custa R$60 por dia e R$0.15 por km rodado #
+# dado que o carro custa R$60 por dia e R$0.15 por km rodado
 precoDias = 60*dias
 precoKm = 0.15*km
 totalPreco = precoDias + precoKm

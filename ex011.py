@@ -4,6 +4,6 @@ larg = float(input('Largura da parede: '))
 alt = float(input('Altura da parede: '))
 area = larg*alt
 print('Sua parede tem dimensão de {}x{} e sua área é de {}m².'.format(larg, alt, area))
-# considerando que cada litro pinta 2m² #
+# considerando que cada litro pinta 2m²
 tinta = area/2
 print('Para pinturar essa parede, você irá precisar de {:.2f}L de tinta.'.format(tinta))

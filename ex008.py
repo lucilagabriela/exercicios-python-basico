@@ -1,6 +1,6 @@
 # Exercício Python 008: Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros. #
 
-# km hm dam m dm cm mm #
+# km hm dam m dm cm mm
 
 metros = float(input('Uma distância em metros: '))
 km = metros/1000

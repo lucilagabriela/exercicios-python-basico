@@ -14,4 +14,4 @@ print('{} x 9 = {}'.format(nmr, (nmr*9)))
 print('{} x 10 = {}'.format(nmr, (nmr*10)))
 print('='*15)
 
-# com estrutura de repeticao o código fica menor e mais simples #
+# com estrutura de repeticao o código fica menor e mais simples

@@ -2,9 +2,9 @@ print('Olá, Mundo!')
 
 print(7+3)
 # diferente de print('7+3') #
-# diferente de print('7' + '4') {concatenacao} #
+# diferente de print('7' + '4') {concatenacao}
 
-# concatenacao: com + e com , #
+# concatenacao: com + e com ,
 
 nome = 'Lucila'
 idade = 20

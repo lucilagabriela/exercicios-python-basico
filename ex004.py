@@ -9,5 +9,5 @@ print('Está em minúsculas? {}'.format(texto.islower()))
 print('Está capitalizada? {}'.format(texto.istitle()))
 print('Coloque capitalizada: {}'.format(texto.capitalize()))
 
-# usar () no final #
-# usar .is__#
+# usar () no final
+# usar .is__
