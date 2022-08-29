@@ -4,13 +4,14 @@ nmr = int(input('Digite um número inteiro: '))
 print('Escolha uma das bases para conversão:\n')
 conversao = int(input('[ 1 ] converter para BINÁRIO\n[ 2 ] converter para OCTAL\n[ 3 ] converter para HEXADECIMAL\n'))
 if conversao == 1:
-    novoNmr = bin(nmr)
+    # [2:] é fatiamento de string
+    novoNmr = bin(nmr)[2:]
     print(novoNmr)
 elif conversao == 2:
-    novoNmr = oct(nmr)
+    novoNmr = oct(nmr)[2:]
     print(novoNmr)
 elif conversao == 3:
-    novoNmr = hex(nmr)
+    novoNmr = hex(nmr)[2:]
     print(novoNmr)
 else:
     print('ERRO! Será que você digitou errado?')
