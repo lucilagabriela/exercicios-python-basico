@@ -13,4 +13,3 @@ if nmrUsuario == nmrComp:
     print('Você acertou!! O número que eu pensei foi {}.'.format(nmrComp))
 else:
     print('Que pena. Você errou! O número que eu pensei foi {}.'.format(nmrComp))
-
