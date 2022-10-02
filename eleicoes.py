@@ -15,7 +15,7 @@ porcentagem = []
 
 for informacoes in json_data['cand']:
     
-    if informacoes['seq'] == '2' or informacoes['seq'] == '1' or informacoes['seq'] == '3' or informacoes['seq'] == '4' or informacoes['seq'] == '7':
+    #if informacoes['seq'] == '2' or informacoes['seq'] == '1' or informacoes['seq'] == '3' or informacoes['seq'] == '4' or informacoes['seq'] == '7':
         candidato.append(informacoes['nm'])
         votos.append(informacoes['vap'])
         porcentagem.append(informacoes['pvap'])
